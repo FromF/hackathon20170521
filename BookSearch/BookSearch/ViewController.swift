@@ -172,10 +172,9 @@ class ViewController: UIViewController , UITextFieldDelegate , UITableViewDelega
                         guard let saleInfo = item["saleInfo"] as? [String:Any] else {
                             continue
                         }
-//                        guard let link = saleInfo["buyLink"] as? String else {
-//                            continue
-//                        }
-                        let link = "https://google.com"
+                        guard let link = saleInfo["buyLink"] as? String else {
+                            continue
+                        }
                         // １件の検索結果をタプルでまとめて管理
                         let data = (title,thumnail,link)
                         // お菓子の配列へ追加
