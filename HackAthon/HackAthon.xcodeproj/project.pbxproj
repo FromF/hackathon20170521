@@ -12,6 +12,9 @@
 		9D5C4EA81ED15B050052B17D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D5C4EA61ED15B050052B17D /* Main.storyboard */; };
 		9D5C4EAA1ED15B050052B17D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D5C4EA91ED15B050052B17D /* Assets.xcassets */; };
 		9D5C4EAD1ED15B050052B17D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D5C4EAB1ED15B050052B17D /* LaunchScreen.storyboard */; };
+		9D5C4ED31ED16E3C0052B17D /* RankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5C4ED21ED16E3C0052B17D /* RankViewController.swift */; };
+		9D5C4ED51ED16E470052B17D /* RegistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5C4ED41ED16E470052B17D /* RegistViewController.swift */; };
+		9D5C4ED71ED178DB0052B17D /* RankTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5C4ED61ED178DB0052B17D /* RankTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		9D5C4EA91ED15B050052B17D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D5C4EAC1ED15B050052B17D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D5C4EAE1ED15B050052B17D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D5C4ED21ED16E3C0052B17D /* RankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankViewController.swift; sourceTree = "<group>"; };
+		9D5C4ED41ED16E470052B17D /* RegistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistViewController.swift; sourceTree = "<group>"; };
+		9D5C4ED61ED178DB0052B17D /* RankTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 			children = (
 				9D5C4EA21ED15B050052B17D /* AppDelegate.swift */,
 				9D5C4EA41ED15B050052B17D /* ViewController.swift */,
+				9D5C4ED21ED16E3C0052B17D /* RankViewController.swift */,
+				9D5C4ED61ED178DB0052B17D /* RankTableViewCell.swift */,
+				9D5C4ED41ED16E470052B17D /* RegistViewController.swift */,
 				9D5C4EA61ED15B050052B17D /* Main.storyboard */,
 				9D5C4EA91ED15B050052B17D /* Assets.xcassets */,
 				9D5C4EAB1ED15B050052B17D /* LaunchScreen.storyboard */,
@@ -139,6 +148,9 @@
 			files = (
 				9D5C4EA51ED15B050052B17D /* ViewController.swift in Sources */,
 				9D5C4EA31ED15B050052B17D /* AppDelegate.swift in Sources */,
+				9D5C4ED51ED16E470052B17D /* RegistViewController.swift in Sources */,
+				9D5C4ED31ED16E3C0052B17D /* RankViewController.swift in Sources */,
+				9D5C4ED71ED178DB0052B17D /* RankTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

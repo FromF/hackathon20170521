@@ -10,9 +10,19 @@ import UIKit
 
 class ViewController: UIViewController , UITextFieldDelegate {
 
+    @IBOutlet weak var facebookButton: UIButton!
+    
+    @IBOutlet weak var twitterButton: UIButton!
+    
+    @IBOutlet weak var registButton: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        facebookButton.layer.cornerRadius = 2.0
+        twitterButton.layer.cornerRadius = 2.0
+        registButton.layer.cornerRadius = 2.0
     }
 
     override func didReceiveMemoryWarning() {
